@@ -50,3 +50,44 @@ a:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     margin: 15px 0;
 }
+.peu-pagina {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #cbd5e0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #718096;
+}
+#llista-habilitats {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+#llista-objectius {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+ul li:first-child {
+    font-weight: bold;
+    color: #2b6cb0;
+}
+ul li:last-child {
+    font-style: italic;
+    color: #718096;
+}
+#llista-objectius > li {
+    padding: 6px 0;
+    border-bottom: 1px dashed #e2e8f0;
+}
+h1::before {
+    content: "👤 ";
+}
+h2::after {
+    content: " 📌";
+    font-size: 0.8em;
+}
+.peu-pagina p::before {
+    content: "---------------- ";
+    color: #cbd5e0;
+}
